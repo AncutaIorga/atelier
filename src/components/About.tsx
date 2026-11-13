@@ -7,7 +7,7 @@ export default function Hero() {
             <picture className="h-[400px] md:h-[600px]">
                 <source
                     media="(max-width:767px)"
-                    srcSet="/images/mobile/img-about-mobile.jpg">
+                    srcSet="/images/mobile/img-about.jpg">
                 </source>
                 <img
                     src="/images/desktop/img-about.jpg"
