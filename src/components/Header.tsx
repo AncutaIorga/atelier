@@ -63,10 +63,14 @@ export default function Header() {
             <span className="h-px w-[22px] bg-[#F5F3EF]" />
           </button>
         </div>
+
+        <div className="h-px w-full bg-[#85817B]/30" />
+
       </header>
 
       {/* Menú móvil a pantalla completa */}
       {menuOpen && (
+        
         <div className="fixed inset-0 z-50 flex h-[100dvh] flex-col overflow-y-auto bg-[#171717] px-6 md:hidden">          
           <div className="flex h-[72px] items-center justify-between">
             <span
@@ -85,6 +89,8 @@ export default function Header() {
               ×
             </button>
           </div>
+          
+          <div className="-mx-6 h-px bg-[#85817B]/30" />
 
           <nav className="mt-20 flex flex-col gap-7">
             {navigation.map((item) => (

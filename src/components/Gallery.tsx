@@ -30,9 +30,9 @@ export default function Gallery() {
                     El resultado habla por sí solo.
                 </h2>
 
-                <div className="grid gap-5 md:grid-cols-2">
+                <div className="grid gap-5 md:grid-cols-2 md:gap-5">
                     {/*Imagen Principal*/}
-                    <picture className="h-[450px] md:h-[600px]" >
+                    <picture className="md:h-[600px]" >
                         <source
                             media="(max-width: 767px)"
                             srcSet="/images/mobile/img-gallery-01-mobile-2.jpg"
@@ -41,13 +41,13 @@ export default function Gallery() {
                         <img
                             src="/images/desktop/img-gallery-01.jpg"
                             alt={images[0].alt}
-                            className="h-full w-full object-cover"
+                            className="h-full w-full object-contain md:object-cover"
                         />
                     </picture>
                     {/* Dos imágenes secundarias */}
-                    <div className="grid gap-5 md:grid-rows-2">
+                    <div className="grid gap-5 md:grid-rows-2 md:gap-5">
                         {images.slice(1).map((image) => (
-                            <picture key={image.desktopName} className="h-[300px] md:h-auto">
+                            <picture key={image.desktopName} className="md:h-auto">
                                 <source
                                     media="(max-width: 767px)"
                                     srcSet={`/images/mobile/${image.mobileName}`}
@@ -55,7 +55,7 @@ export default function Gallery() {
                                 <img
                                     src={`/images/desktop/${image.desktopName}`}
                                     alt={image.alt}
-                                    className="h-full w-full object-cover"
+                                    className="h-full w-full object-contain md:object-cover"
                                 />
                             </picture>
                         ))}

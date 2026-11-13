@@ -11,6 +11,8 @@ export default function Contact() {
 
   return (
     <section id="contacto" className="grid md:grid-cols-2">
+      <div className="h-px w-full bg-[#85817B]/30" />
+
       {/* Información de contacto */}
       <div className="flex flex-col justify-center bg-[#171717] px-6 py-20 text-[#F5F3EF] md:px-16 lg:px-24">
         <p className="mb-3 text-[11px] tracking-[0.2em] text-[#B49A72]">

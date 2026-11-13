@@ -24,6 +24,7 @@ export default function Testimonials() {
           — CLIENTE ATELIER
         </p>
       </div>
+      
     </section>
   )
 }
