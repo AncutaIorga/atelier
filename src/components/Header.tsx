@@ -2,11 +2,11 @@
 import { useState } from 'react'
 
 const navigation = [
-  { label: 'INICIO', href: '#inicio' },
-  { label: 'EL SALÓN', href: '#salon' },
-  { label: 'SERVICIOS', href: '#servicios' },
-  { label: 'GALERÍA', href: '#galeria' },
-  { label: 'CONTACTO', href: '#contacto' },
+  { label: 'Inicio', href: '#inicio' },
+  { label: 'El salón', href: '#salon' },
+  { label: 'Servicios', href: '#servicios' },
+  { label: 'Galería', href: '#galeria' },
+  { label: 'Contacto', href: '#contacto' },
 ]
 
 export default function Header() {
