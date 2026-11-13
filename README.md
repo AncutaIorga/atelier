@@ -12,7 +12,7 @@ ATELIER is a fictional hair salon project designed to explore a minimalist visua
 |:----------------------:|:------------------------:|
 | ![Desktop preview](public/images/screenshots/image.png) | ![Mobile preview](public/images/screenshots/image-1.png) |
 
-**Live Demo:** [Visit ATELIER](YOUR_VERCEL_URL)
+**Live Demo:** [Visit ATELIER](https://atelier-jet-zeta.vercel.app/)
 
 ## About the Project
 
