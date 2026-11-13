@@ -67,8 +67,7 @@ export default function Header() {
 
       {/* Menú móvil a pantalla completa */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-[#171717] px-6 md:hidden">
-          
+        <div className="fixed inset-0 z-50 flex h-[100dvh] flex-col overflow-y-auto bg-[#171717] px-6 md:hidden">          
           <div className="flex h-[72px] items-center justify-between">
             <span
               className="text-[26px] text-[#F5F3EF]"
@@ -104,13 +103,12 @@ export default function Header() {
           <a
             href="#contacto"
             onClick={closeMenu}
-            className="mt-12 flex h-12 items-center justify-center bg-[#B49A72] text-[11px] font-medium tracking-wider text-[#171717]"
-          >
+            className="mt-12 flex h-12 min-h-12 shrink-0 items-center justify-center bg-[#B49A72] text-[11px] font-medium tracking-wider text-[#171717]"          >
             RESERVAR CITA
           </a>
 
           {/* Footer del menú móvil */}
-          <div className="mt-auto border-t border-[#85817B]/30 pb-6 pt-6">
+          <div className="mt-auto shrink-0 border-t border-[#85817B]/30 pb-6 pt-6">
             <div>
               <a
                 href="#inicio"
