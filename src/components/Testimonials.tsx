@@ -7,14 +7,14 @@ export default function Testimonials() {
         </p>
 
         <h2
-          className="mb-8 text-4x1 md:text-5x1"
+          className="mb-8 text-4xl md:text-5xl"
           style={{ fontFamily: 'Cormorant Garamond, serif' }}
         >
           La belleza está en los detalles.
         </h2>
 
         <blockquote
-          className="mb-8 text-2x1 leading-relaxed md:text-3x1"
+          className="mb-8 text-2xl leading-relaxed md:text-3xl"
           style={{ fontFamily: 'Cormorant Garamond, serif' }}
         >
           «Por fin he encontrado un lugar que entiende exactamente lo que quiero.»

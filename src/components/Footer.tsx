@@ -6,7 +6,7 @@ export default function Footer() {
         <div>
           <a
             href="#inicio"
-            className="text-4x1"
+            className="text-4xl"
             style={{ fontFamily: 'Cormorant Garamond, serif' }}
           >
             ATELIER

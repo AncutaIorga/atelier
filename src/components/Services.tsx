@@ -31,7 +31,7 @@ export default function Services() {
                 </p>
 
                 <h2
-                    className="mb-16 text-4x1 md:text-5x1"
+                    className="mb-16 text-4xl md:text-5xl"
                     style={{ fontFamily: 'Cormorant Garamond, serif' }}>
                         Una atención a tu medida.
                 </h2>
@@ -47,7 +47,7 @@ export default function Services() {
                             </span>
 
                             <h3
-                                className="text-2x1"
+                                className="text-2xl"
                                 style={{ fontFamily: 'Cormorant Garamond, serif' }}>
                                 {service.name}
                             </h3>

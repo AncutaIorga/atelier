@@ -7,7 +7,7 @@ export default function Hero() {
             <picture className="h-[400px] md:h-[600px]">
                 <source
                     media="(max-width:767px)"
-                    srcSet="/images/mobile/img-about.jpg">
+                    srcSet="/images/mobile/img-about-mobile-2.jpg">
                 </source>
                 <img
                     src="/images/desktop/img-about.jpg"
@@ -16,13 +16,13 @@ export default function Hero() {
                 </img>
             </picture>
             {/* Texto */}
-            <div className="flex flex-col justify-center pxx-6 py-16 md:px-16 lg:px-24">
+            <div className="flex flex-col justify-center px-6 py-16 md:px-16 lg:px-24">
                 <p className="mb-6 text-[11px] tracking-[0.2em] text-[#B49A72]">
                     EL UNIVERSO ATELIER
                 </p>
 
                 <h2
-                    className="mb-6 text-4x1 leading-tight md:text-5x1"
+                    className="mb-6 text-4xl leading-tight md:text-5xl"
                     style={{ fontFamily: 'Cormorant Garamond, serif' }}>
                     Más que un salón. Una experiencia.
                 </h2>

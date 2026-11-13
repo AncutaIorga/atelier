@@ -9,7 +9,7 @@ export default function Hero() {
                      HAIR · BEAUTY · ART
                 </p>
 
-                <h1 className="mb-6 text-6x1 leading-tight md:text-6x1" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+                <h1 className="mb-6 text-6xl leading-tight md:text-6xl" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
                     El arte de sentirte tú.
                 </h1>
 

@@ -18,7 +18,7 @@ export default function Contact() {
         </p>
 
         <h2
-          className="mb-5 text-4x1 md:text-5x1"
+          className="mb-5 text-4xl md:text-5xl"
           style={{ fontFamily: 'Cormorant Garamond, serif' }}
         >
           Tu próxima experiencia empieza aquí.
@@ -50,7 +50,7 @@ export default function Contact() {
       {/* Formulario */}
       <div className="bg-[#F5F3EF] px-6 py-20 text-[#171717] md:px-16 lg:px-24">
         <h3
-          className="mb-10 text-3x1"
+          className="mb-10 text-3xl"
           style={{ fontFamily: 'Cormorant Garamond, serif' }}
         >
           Solicita tu cita
@@ -59,7 +59,7 @@ export default function Contact() {
         {sent ? (
           <div className="py-10">
             <h4
-              className="mb-4 text-3x1"
+              className="mb-4 text-3xl"
               style={{ fontFamily: 'Cormorant Garamond, serif' }}
             >
               ¡Gracias por contactar con Atelier!
