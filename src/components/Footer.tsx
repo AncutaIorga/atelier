@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#171717] px-6 py-12 text-[#F5F3EF] md:px-16">
+    <footer className="overflow-x-hidden bg-[#171717] px-6 py-12 text-[#F5F3EF] md:px-16">
       <div className="mx-auto flex max-w-[1100px] flex-col items-center gap-8 text-center">
 
         <div>
@@ -24,7 +24,7 @@ export default function Footer() {
           <a href="#contacto" className="hover:text-[#B49A72]">PRIVACIDAD</a>
         </nav>
 
-        <div className="h-px w-full bg-[#85817B]/30" />
+        <div className="h-px w-screen -mx-6 bg-[#85817B]/30 md:-mx-[calc((100vw-1100px)/2)]" />
 
         <p className="text-[10px] text-[#85817B]">
           © 2026 ATELIER. TODOS LOS DERECHOS RESERVADOS.
