@@ -108,6 +108,37 @@ export default function Header() {
           >
             RESERVAR CITA
           </a>
+
+          {/* Footer del menú móvil */}
+          <div className="mt-auto border-t border-[#85817B]/30 pb-6 pt-6">
+            <div>
+              <a
+                href="#inicio"
+                onClick={closeMenu}
+                className="text-3xl text-[#F5F3EF]"
+                style={{ fontFamily: 'Cormorant Garamond, serif' }}
+              >
+                ATELIER
+              </a>
+
+              <p className="mt-2 text-[10px] tracking-[0.2em] text-[#B49A72]">
+                HAIR STUDIO · VALENCIA
+              </p>
+            </div>
+
+            <a
+              href="https://www.instagram.com/ateliervalencia/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 block text-[11px] tracking-wider text-[#C8C5BF] transition-colors hover:text-[#B49A72]"
+            >
+              @ateliervalencia
+            </a>
+
+            <p className="mt-4 text-[10px] tracking-wider text-[#85817B]">
+              © 2026 ATELIER. TODOS LOS DERECHOS RESERVADOS.
+            </p>
+          </div>
         </div>
       )}
     </>
