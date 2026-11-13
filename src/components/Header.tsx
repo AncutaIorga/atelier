@@ -70,7 +70,7 @@ export default function Header() {
         <div className="fixed inset-0 z-50 flex h-[100dvh] flex-col overflow-y-auto bg-[#171717] px-6 md:hidden">          
           <div className="flex h-[72px] items-center justify-between">
             <span
-              className="text-[26px] text-[#F5F3EF]"
+              className="text-[28px] text-[#F5F3EF] md:text-[30px]"
               style={{ fontFamily: 'Cormorant Garamond, serif' }}
             >
               ATELIER
@@ -80,7 +80,7 @@ export default function Header() {
               type="button"
               onClick={closeMenu}
               aria-label="Cerrar menú"
-              className="text-[32px] leading-none text-[#F5F3EF]"
+              className="flex items-center justify-center text-[28px] leading-none text-[#F5F3EF]"
             >
               ×
             </button>
